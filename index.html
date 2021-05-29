@@ -15,18 +15,19 @@
 	<!--Шапка-->
 	<header class="header">
 		<div class="container">
-				<a href="./index.html" class="logo"> <span class="web">Web</span>Studio</a>
-		<nav class="navigation">
+		<nav class="navigation">	
+			<a href="./index.html" class="logo"> <span class="web">Web</span>Studio</a>
 			<ul class="navList">
-				<li><a class="studio current" href="./index.html">Студия</a></li>
-				<li><a class="portfolio" href="./portfolio.html">Портфолио</a></li>
-				<li><a class="contact" href="#">Контакты</a></li>
+				<li class="navListItem"><a class="studio current" href="./index.html">Студия</a></li>
+				<li class="navListItem"><a class="portfolio" href="./portfolio.html">Портфолио</a></li>
+				<li class="navListItem"><a class="contact" href="#">Контакты</a></li>
 			</ul>
-		</nav>
+		
 			<ul class="contactList">
-				<li><a class="mail" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
-				<li><a class="tel" href="tel:+380961111111" >+38 096 111 11 11</a></li>
+				<li class="contactItem"><a class="mail" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
+				<li class="contactItem"><a class="tel" href="tel:+380961111111" >+38 096 111 11 11</a></li>
 			</ul>	
+		</nav>
 		</div>
 	</header>
 	<main>
@@ -36,7 +37,7 @@
 			<button class="button" type="submit">Заказать услугу</button>
 		</section>
 		<!--Секция описание-->
-		<section>
+		<section class="description">
 			<div class="container">
 				<h2 style="display: none;">Секция описание</h2>
 				<ul class="sectionDescription">
@@ -59,45 +60,43 @@
 				</ul>
 			</div>
 		</section>
-		<!--Чем мы занимаемся-->
-			
+		<!--Чем мы занимаемся-->			
 		<section class="sectionWork">	
-				 <h2 class="workTitle">Чем мы занимаемся</h2>
 					<div class="container">
-						<ul class="workList">
-							<li class="workListItem"><img src="./images/PC.jpg" alt="Комп" width="370"></li>
-							<li class="workListItem"><img src="./images/telephone.jpg" alt="Телефон" width="370"></li>
-							<li class="workListItem"><img src="./images/tablet.jpg" alt="Планшет" width="370"></li>
-						</ul>
+				 		<h2 class="workTitle">Чем мы занимаемся</h2>
+							<ul class="workList">
+								<li class="workListItem"><img src="./images/PC.jpg" alt="Комп" width="370"></li>
+								<li class="workListItem"><img src="./images/telephone.jpg" alt="Телефон" width="370"></li>
+								<li class="workListItem"><img src="./images/tablet.jpg" alt="Планшет" width="370"></li>
+							</ul>
 					</div>
 		</section>
-			
 				<!--Наша команда-->
 		<section class="ourTeam">
-			<h2 class="teamTitle">Наша команда</h2>
 				<div class="container">
-					<ul class="teamList">
-						<li class="teamListItem">
-							<img src="./images/Игорь.jpg" alt="Игорь" width="270">
-							<h3 class="teamName">Игорь Демьяненко</h3>
-							<p class="teamWork">Product Designer</p>
-						</li>
-						<li class="teamListItem">
-							<img src="./images/Ольга.jpg" alt="Ольга" width="270">
-							<h3 class="teamName">Ольга Репина</h3>
-							<p class="teamWork">Frontend Developer</p>
-						</li>
-						<li class="teamListItem">
-							<img src="./images/Николай.jpg" alt="Николай" width="270">
-							<h3 class="teamName">Николай Тарасов</h3>
-							<P class="teamWork">Marketing</P>
-						</li>
-						<li class="teamListItem">
-							<img src="./images/Михаил.jpg" alt="Михаил" width="270">
-							<h3 class="teamName">Михаил Ермаков</h3>
-							<p class="teamWork">UI Designer</p>
-						</li>
-					</ul>
+					<h2 class="teamTitle">Наша команда</h2>
+						<ul class="teamList">
+							<li class="teamListItem">
+								<img src="./images/Игорь.jpg" alt="Игорь" width="270">
+								<div class="team"><h3 class="teamName">Игорь Демьяненко</h3></div>
+								<p class="teamWork">Product Designer</p>
+							</li>
+							<li class="teamListItem">
+								<img src="./images/Ольга.jpg" alt="Ольга" width="270">
+								<div class="team"><h3 class="teamName">Ольга Репина</h3></div>
+								<p class="teamWork">Frontend Developer</p>
+							</li>
+							<li class="teamListItem">
+								<img src="./images/Николай.jpg" alt="Николай" width="270">
+								<div class="team"><h3 class="teamName">Николай Тарасов</h3></div>
+								<P class="teamWork">Marketing</P>
+							</li>
+							<li class="teamListItem">
+								<img src="./images/Михаил.jpg" alt="Михаил" width="270">
+								<div class="team"><h3 class="teamName">Михаил Ермаков</h3></div>
+								<p class="teamWork">UI Designer</p>
+							</li>
+						</ul>
 				</div>
 		</section>
 	</main>
