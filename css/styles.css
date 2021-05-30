@@ -38,10 +38,14 @@ body {
 /* Логотип */
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 25px;
   align-items: center;
   background: var(--background-color-header);
 }
-
+.headContainer {
+  display: flex;
+}
 .logo {
   display: block;
   color: var(--black-color);
@@ -49,9 +53,6 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
-  padding-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
 }
 .web {
   color: var(--blue-color);
@@ -65,8 +66,8 @@ body {
 
 .navList {
   display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  align-items: center;
+  margin-left: 93px;
 }
 .navList > .navListItem:not(:last-child) {
   margin-right: 50px;
@@ -180,7 +181,7 @@ body {
 .sectionDescription {
   display: flex;
 }
-.sectionDescription:not(:last-child) {
+.descriptionItem:not(:last-child) {
   margin-right: 30px;
 }
 .descriptionTitle {
@@ -189,21 +190,22 @@ body {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
+
 .descriptionText {
+  align-items: center;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--color-grey);
-  padding-right: 30px;
 }
 
 /* Чем мы занимаемся */
 .sectionWork {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .workList {
   display: flex;
@@ -223,8 +225,6 @@ body {
 
 /* Наша команда */
 .teamList {
-  padding-top: 50px;
-  padding-bottom: 94px;
   display: flex;
 }
 
@@ -234,6 +234,8 @@ body {
 .teamListItem {
 }
 .ourTeam {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background: var(--background-ourTeam);
 }
 .teamTitle {
@@ -242,10 +244,11 @@ body {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 .team {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .teamName {
   font-weight: 500;
@@ -253,6 +256,7 @@ body {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .teamWork {
   font-weight: normal;
@@ -279,10 +283,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-white);
 }
-.address {
-  padding-top: 20px;
-}
 
+.footerAddress > .logo {
+  margin-bottom: 20px;
+}
 .contactFooter {
   text-decoration: none;
   font-weight: normal;
@@ -302,11 +306,14 @@ body {
 /* <!-- Portfolio.html --> */
 
 /* Кнопки навигации */
+.sectionPortfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .filter {
+  margin-bottom: 34px;
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 34px;
 }
 .buttonFilter {
   background: var(--background-color-filter);
@@ -347,7 +354,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
+  margin-bottom: 4px;
 }
 .workImg {
   font-weight: normal;
@@ -355,8 +362,9 @@ body {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--color-grey);
-  padding-top: 4px;
-  padding-bottom: 20px;
+}
+.titleWork {
+  padding: 20px 24px;
 }
 .container {
   width: 1200px;

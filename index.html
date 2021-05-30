@@ -14,7 +14,7 @@
 <body>
 	<!--Шапка-->
 	<header class="header">
-		<div class="container">
+		<div class="container headContainer">
 		<nav class="navigation">	
 			<a href="./index.html" class="logo"> <span class="web">Web</span>Studio</a>
 			<ul class="navList">
@@ -22,12 +22,11 @@
 				<li class="navListItem"><a class="portfolio" href="./portfolio.html">Портфолио</a></li>
 				<li class="navListItem"><a class="contact" href="#">Контакты</a></li>
 			</ul>
-		
+		</nav>
 			<ul class="contactList">
 				<li class="contactItem"><a class="mail" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
 				<li class="contactItem"><a class="tel" href="tel:+380961111111" >+38 096 111 11 11</a></li>
 			</ul>	
-		</nav>
 		</div>
 	</header>
 	<main>
@@ -39,21 +38,21 @@
 		<!--Секция описание-->
 		<section class="description">
 			<div class="container">
-				<h2 style="display: none;">Секция описание</h2>
+				<h2 class="titleNone">Секция описание</h2>
 				<ul class="sectionDescription">
-					<li >
+					<li class="descriptionItem">
 					<h3 class="descriptionTitle">Внимание к деталям</h3>
 					<p class="descriptionText">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 					</li>
-					<li>
+					<li class="descriptionItem">
 					<h3 class="descriptionTitle">Пунктуальность</h3>
 					<p class="descriptionText">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
 					</li>
-					<li>
+					<li class="descriptionItem">
 					<h3 class="descriptionTitle">Планирование</h3>
 					<p class="descriptionText">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
 					</li>
-					<li>
+					<li class="descriptionItem">
 					<h3 class="descriptionTitle">Современные технологии</h3>
 					<p class="descriptionText">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 					</li>
@@ -78,23 +77,31 @@
 						<ul class="teamList">
 							<li class="teamListItem">
 								<img src="./images/Игорь.jpg" alt="Игорь" width="270">
-								<div class="team"><h3 class="teamName">Игорь Демьяненко</h3></div>
-								<p class="teamWork">Product Designer</p>
+									<div class="team">
+										<h3 class="teamName">Игорь Демьяненко</h3>
+										<p class="teamWork">Product Designer</p>
+									</div>
 							</li>
 							<li class="teamListItem">
 								<img src="./images/Ольга.jpg" alt="Ольга" width="270">
-								<div class="team"><h3 class="teamName">Ольга Репина</h3></div>
-								<p class="teamWork">Frontend Developer</p>
+									<div class="team">
+										<h3 class="teamName">Ольга Репина</h3>
+										<p class="teamWork">Frontend Developer</p>
+									</div>
 							</li>
 							<li class="teamListItem">
 								<img src="./images/Николай.jpg" alt="Николай" width="270">
-								<div class="team"><h3 class="teamName">Николай Тарасов</h3></div>
-								<P class="teamWork">Marketing</P>
+									<div class="team">
+										<h3 class="teamName">Николай Тарасов</h3>
+										<P class="teamWork">Marketing</P>
+									</div>
 							</li>
 							<li class="teamListItem">
 								<img src="./images/Михаил.jpg" alt="Михаил" width="270">
-								<div class="team"><h3 class="teamName">Михаил Ермаков</h3></div>
-								<p class="teamWork">UI Designer</p>
+									<div class="team">
+										<h3 class="teamName">Михаил Ермаков</h3>
+										<p class="teamWork">UI Designer</p>
+									</div>
 							</li>
 						</ul>
 				</div>
